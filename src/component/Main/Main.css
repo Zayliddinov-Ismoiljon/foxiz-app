@@ -1,0 +1,594 @@
+.main__inner{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.main__about{
+  width: 60%;
+  border-radius: 5px;
+  background-image: url(https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/08/e30-860x573.jpg);
+  background-size: cover;
+  width: 60%;
+  height: 600px;
+  background-repeat: no-repeat;
+  padding: 340px 15px 15px 15px;
+}
+
+.main__aboutlink{
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FF28A9;
+  clip-path: polygon(18% 0, 100% 0%, 82% 100%, 0% 100%);
+  padding: 5px 30px;
+}
+
+.main__abouttitle{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  margin: 20px 0px;
+  padding: 0;
+}
+
+.main__abouttext{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+
+.main__aboutinfo{
+  position: relative;
+  z-index: 1;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__aboutinfo::after{
+  position: absolute;
+  content: "";
+  background-image: url(https://cdn-icons-png.flaticon.com/512/7093/7093762.png);
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+  top: 5px;
+  right: -210%;
+}
+
+.main__busines .main__aboutinfo::after{
+  right: -80%;
+}
+
+.main__aboutimg{
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+}
+
+.main__aboutspan, .main__abouttime{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.main__info{
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__busines{
+  width: 100%;
+  background-image: url(https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/08/b19-420x280.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 290px;
+  padding: 100px 20px 20px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.main__busines .main__aboutlink{
+  background-color: #FF6552;
+}
+
+.main__busines + .main__busines{
+  background-image: url(https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/08/p6-420x280.jpg);
+}
+
+.main__busines + .main__busines .main__aboutlink{
+  background-color: #1A8CB2;
+}
+
+.main__busines .main__aboutinfo{
+  width: 55%;
+}
+
+.discover{
+  width: 100%;
+  background-color: #E8E8E8;
+  padding: 20px 0px;
+}
+
+.discover__title{
+  position: relative;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.discover__title::after, .discover__title::before{
+  position: absolute;
+  z-index: 1;
+  content: "";
+  background-image: url(https://cdn-icons-png.flaticon.com/512/815/815548.png);
+  background-repeat: no-repeat;
+  background-size: 10px 20px;
+  width: 20px;
+  height: 30px;
+  top: 0px;
+  right: 100%;
+}
+
+.discover__title::before{
+  left: 20%;
+}
+
+.discover__list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.discover__item{
+  width: 22%;
+  background-color: #E2E2E2;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.discover__itemimg{
+  width: 100%;
+}
+
+.discover__itemspan{
+  position: relative;
+  z-index: 1;
+}
+
+.discover__itemspan::after{
+  position: absolute;
+  z-index: 1;
+  content: '';
+  background-image: url(https://cdn-icons-png.flaticon.com/512/3303/3303893.png);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  top: -10px;
+  left: 350%;
+}
+
+.fashion{
+  width: 100%;
+  padding-top: 20px;
+}
+
+.fashion__inner{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.fashion__title{
+  position: relative;
+  z-index: 1;
+  margin-left: 30px;
+}
+
+.fashion__title::after, .fashion__title::before{
+  position: absolute;
+  content: '';
+  background-image: url(https://cdn-icons-png.flaticon.com/512/815/815548.png);
+  background-repeat: no-repeat;
+  background-size: 10px 20px;
+  width: 20px;
+  height: 30px;
+  top: 10px;
+  right: 100%;
+}
+
+.fashion__title::before{
+  left: 120%;
+}
+
+.fashion__innerlink{
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  color: black;
+  margin-right: 70px;
+}
+
+.fashion__innerlink::after{
+  position: absolute;
+  content: '';
+  background-image: url(https://cdn-icons-png.flaticon.com/512/545/545682.png);
+  background-repeat: no-repeat;
+  background-size: 30px 10px;
+  width: 30px;
+  height: 10px;
+  top: 10px;
+  right: -50px;
+}
+
+.fashion__list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fashion__item{
+  width: 30%;
+}
+
+.fashion__itemimg{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.fashion__itemlink{
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  clip-path: polygon(18% 0, 100% 0%, 82% 100%, 0% 100%);
+  background-color: #FF557A;
+  padding: 5px 20px;
+  margin-top: -50px;
+}
+
+.fashion__itemtitle{
+  font-size: 16px;
+  margin: 10px 0px;
+  padding: 0;
+}
+
+.fashion__itemtitle:hover{
+  color: red;
+  cursor: pointer;
+}
+
+
+.fashion__about{
+  display: flex;
+  align-items: center;
+}
+
+.fashion__aboutimg{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.fashion__aboutspan{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.blog{
+  margin-top: 70px;
+}
+
+.blog__list{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog__item{
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.blog__itemcurrent{
+  width: 48%;
+  background-image: url(https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/08/t35-330x220.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  padding-top: 120px;
+  border-radius: 5px;
+}
+
+.blog__item:nth-child(2) .blog__itemcurrent{
+  background-image: url(https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/08/v8-330x220.jpg);
+}
+
+.blog__item:nth-child(3) .blog__itemcurrent{
+  background-image: url(https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/08/e12-330x220.jpg);
+}
+
+.blog__item:nth-child(4) .blog__itemcurrent{
+  background-image: url(https://foxiz.themeruby.com/default/wp-content/uploads/sites/2/2021/08/b69-330x220.jpg);
+}
+
+.blog__itemlink{
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #FF28A9;
+  clip-path: polygon(18% 0, 100% 0%, 82% 100%, 0% 100%);
+  padding: 5px 20px;
+}
+
+.blog__itemabout{
+  width: 48%;
+}
+
+.blog__itemtitle{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog__iteminfo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.blog__iteminfoimg{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.blog__itemspan{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width:768px){
+  #root, .container{
+    width: 100%;
+  }
+
+  .main__inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__about{
+    width: 100%;
+    background-size: 100% 550px;
+  }
+
+  .main__abouttext{
+    display: none;
+  }
+
+  .main__info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main__busines{
+    width: 48%;
+  }
+
+  .main__abouttitle{
+    font-size: 20px;
+  }
+
+  .main__aboutinfo{
+    width: 40%;
+  }
+
+  .main__busines .main__aboutinfo{
+    width: 85%;
+  }
+
+  .main__busines .main__aboutinfo::after{
+    right: -60px;
+  }
+
+  .main__aboutinfo::after{
+    right: -145%;
+  }
+
+ .discover__itemspan::after{
+    left: 110px;
+  }
+
+  .discover__title::before{
+    left: 240px;
+  }
+
+  .blog__iteminfo{
+    width: 100%;
+  }
+
+  .blog__itemspan{
+    font-size: 14px;
+  }
+
+  
+}
+
+@media only screen and (max-width:425px){
+  .main__about{
+    width: 100%;
+    padding-top: 150px;
+    background-size: 100% 380px;
+    width: 100%;
+    height: 340px;
+  }
+
+  .main__info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__busines{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 270px;
+  }
+
+  .main__busines .main__aboutinfo{
+    width: 60%;
+  }
+
+  .main__busines .main__aboutinfo::after{
+    right: -160px;
+  }
+
+  .discover__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .discover__item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .discover__itemimg{
+    width: 50%;
+    border-radius: 5px; ;
+  }
+
+  .discover__itemlight{
+    width: 40%;
+  }
+
+  .main__busines .discover__itemspan::after{
+    right: 100px;
+  }
+
+  .fashion__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fashion__item{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .blog__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog__item{
+    padding: 10px;
+    width: 100%;
+  }
+
+  .blog__itemcurrent{
+    width: 45%;
+  }
+
+  .blog__itemabout{
+    width: 52%;
+  }
+
+  .blog__iteminfo{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:320px){
+  #root, .container{
+    width: 100%;
+  }
+
+  .main__about{
+    width: 100%;
+    padding-top: 130px;
+    height: 300px;
+  }
+
+  .main__abouttitle{
+    font-size: 14px;
+  }
+
+  .main__aboutinfo{
+    width: 80%;
+  }
+
+  .main__aboutinfo::after{
+    right: -50px;
+  }
+
+  .main__busines{
+    padding-top: 90px;
+    height: 250px;
+  }
+
+  .main__busines .main__aboutinfo{
+    width: 80%;
+  }
+
+  .main__busines .main__aboutinfo::after{
+    right: -60px;
+  }
+
+  .discover__item .discover__itemspan::after{
+    left: 90px;
+  }
+
+  .blog__itemcurrent{
+    width: 45%;
+  }
+
+  .blog__itemtitle{
+    font-size: 12px;
+  }
+
+  .blog__iteminfo{
+    width: 100%;
+  }
+
+  .blog__itemspan, .blog__itemtime {
+    font-size: 10px;
+  }
+}
